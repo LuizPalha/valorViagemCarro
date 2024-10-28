@@ -1,3 +1,4 @@
+// Very useful code for calculating vehicle fuel prices
 let consumoCarroGas = 12 //Km por litros de gasolina 
 let consumoCarroEt= 8 // Km por litros de etanol
 let distViagem = 1000
@@ -8,8 +9,8 @@ let totalGas =   (distViagem / consumoCarroGas) * precoGasolina
 let totalEt = (distViagem / consumoCarroEt) * precoEtanol
 
 if (consumoCarroGas){
-    console.log ("o gasto total de combustivel da viagem em gasolina e de R$ " + totalGas.toFixed(2))
+    console.log ("Total fuel expenditure of the trip in gasoline is R$ " + totalGas.toFixed(2))
 } 
      if (consumoCarroEt) {
-        console.log ("o gasto total de combustivel da viagem em Etanol e de R$ " + totalEt.toFixed(2))
+        console.log ("Total fuel expenditure of the trip in Ethanol is R$ " + totalEt.toFixed(2))
     }
