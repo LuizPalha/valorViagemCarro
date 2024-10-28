@@ -4,7 +4,6 @@ let consumoCarroEt= 8 // Km por litros de etanol
 let distViagem = 1000
 let precoEtanol = 4.80
 let precoGasolina = 6.30
-let consumoCarro = 0
 let totalGas =   (distViagem / consumoCarroGas) * precoGasolina
 let totalEt = (distViagem / consumoCarroEt) * precoEtanol
 
